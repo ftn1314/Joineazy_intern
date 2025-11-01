@@ -1,0 +1,22 @@
+# netlify.toml
+
+[build]
+  command = "npm run build"
+  publish = "build"
+
+# Redirect all requests to index.html (for React Router)
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
+# Optional: environment settings
+[build.environment]
+  NODE_VERSION = "18"
+  NPM_VERSION = "9"
+
+# Optional: custom headers (for caching & performance)
+[[headers]]
+  for = "/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
