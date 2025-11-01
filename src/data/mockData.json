@@ -6,12 +6,12 @@
   ],
   "assignments": [
     {
-      "id": "ds1",
+      "id": "a1",
       "title": "Data Cleaning and Exploration",
       "description": "Perform data cleaning and exploratory data analysis (EDA) on the given dataset using Python libraries such as pandas, numpy, and matplotlib. Submit your findings as a Jupyter Notebook file.",
       "dueDate": "2025-11-12",
       "driveLink": "https://drive.google.com/ds_assignment1",
-      "createdBy": "prof_ds1",
+      "createdBy": "admin1",
       "submissions": {
         "stu1": {
           "status": "submitted",
@@ -26,12 +26,12 @@
       }
     },
     {
-      "id": "ds2",
+      "id": "a2",
       "title": "Machine Learning Model Evaluation",
       "description": "Train a classification model on the provided dataset and evaluate its performance using accuracy, precision, recall, and F1-score. Submit the report and code files.",
       "dueDate": "2025-11-20",
       "driveLink": "https://drive.google.com/ds_assignment2",
-      "createdBy": "prof_ds1",
+      "createdBy": "admin1",
       "submissions": {
         "stu1": {
           "status": "not_submitted",
