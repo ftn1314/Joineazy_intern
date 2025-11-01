@@ -1,2 +1,13 @@
-# Joineazy_intern
-A responsive Student Assignment Dashboard built with React.js and Tailwind CSS. Students can view assignments, track progress, and confirm submissions via a double-verification modal. Admins can create, manage, and attach Drive links to assignments while monitoring student submissions with progress tracking tools.
+## Setup
+
+Follow these steps to install and run the project locally:
+
+```bash
+# Install all dependencies
+npm install
+
+# Run the project in development mode
+npm run dev
+
+# Build and start the production server
+npm run start
