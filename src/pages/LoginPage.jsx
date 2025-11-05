@@ -64,6 +64,10 @@ export default function LoginPage() {
   const demoUsers = [
     { username: 'Arun', password: '12345', role: 'Student' },
     { username: 'Suresh', password: '12345', role: 'Student' },
+    { username: 'Priya', password: '12345', role: 'Student' },
+    { username: 'Ravi', password: '12345', role: 'Student' },
+    { username: 'Kavya', password: '12345', role: 'Student' },
+    { username: 'Tasir', password: '12345', role: 'Student' },
     { username: 'Prof.Azar', password: '12345', role: 'Admin' }
   ];
 

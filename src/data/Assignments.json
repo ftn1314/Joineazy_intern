@@ -1,0 +1,61 @@
+[
+    {
+      "id": "a1",
+      "title": "Data Cleaning and Exploration",
+      "description": "Perform data cleaning and exploratory data analysis (EDA) on the given dataset using Python libraries such as pandas, numpy, and matplotlib. Submit your findings as a Jupyter Notebook file.",
+      "dueDate": "2025-11-12",
+      "driveLink": "https://drive.google.com/ds_assignment1",
+      "courseId": 1,
+      "createdBy": "admin1",
+      "submissionType": "individual",
+      "submissions": {
+        "stu1": {
+          "status": "submitted",
+          "confirmed": true,
+          "submittedAt": "2025-10-31T09:30:00Z",
+          "type": "individual"
+        },
+        "stu2": {
+          "status": "not_submitted",
+          "confirmed": false,
+          "submittedAt": null
+        }
+      }
+    },
+    {
+      "id": "a2",
+      "title": "Machine Learning Model Evaluation",
+      "description": "Train a classification model on the provided dataset and evaluate its performance using accuracy, precision, recall, and F1-score. Submit the report and code files.",
+      "dueDate": "2025-11-20",
+      "driveLink": "https://drive.google.com/ds_assignment2",
+      "courseId": 1,
+      "createdBy": "admin1",
+      "submissionType": "individual",
+      "submissions": {
+        "stu1": {
+          "status": "not_submitted",
+          "confirmed": false,
+          "submittedAt": null
+        },
+        "stu2": {
+          "status": "submitted",
+          "confirmed": false,
+          "submittedAt": "2025-11-01T10:15:00Z",
+          "type": "individual"
+        }
+      }
+    },
+    {
+      "id": "a3",
+      "title": "Group Project - Web Development",
+      "description": "Build a full-stack web application as a team. The group leader will submit the final project on behalf of the entire group.",
+      "dueDate": "2025-11-25",
+      "driveLink": "https://drive.google.com/group_project",
+      "courseId": 2,
+      "createdBy": "admin1",
+      "submissionType": "group",
+      "groupLeader": "Arun",
+      "groupMembers": ["Suresh", "Priya", "Ravi"],
+      "submissions": {}
+    }
+  ]

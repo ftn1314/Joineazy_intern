@@ -1,0 +1,23 @@
+[
+    {
+      "id": 1,
+      "title": "Introduction to React",
+      "description": "Learn the fundamentals of React and build modern web applications",
+      "instructor": "John Doe",
+      "students": [],
+      "duration": "8 weeks",
+      "level": "Beginner",
+      "color": "bg-blue-500"
+    },
+    {
+      "id": 2,
+      "title": "Advanced JavaScript",
+      "description": "Master advanced JavaScript concepts and patterns",
+      "instructor": "Jane Smith",
+      "students": [],
+      "duration": "10 weeks",
+      "level": "Advanced",
+      "color": "bg-purple-500"
+    }
+  ]
+  

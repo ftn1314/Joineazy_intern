@@ -3,6 +3,8 @@ import { BrowserRouter as Router, Routes, Route, Navigate } from 'react-router-d
 import { AuthProvider, AuthContext } from './context/AuthContext';
 import LoginPage from './pages/LoginPage';
 import DashboardPage from './pages/DashboardPage';
+import CoursesPage from './pages/Coursespage';
+import AssignmentsPage from './pages/Assignmentspage';
 
 function PrivateRoute({ children }) {
   const { isAuthenticated } = useContext(AuthContext);
@@ -20,6 +22,22 @@ export default function App() {
             element={
               <PrivateRoute>
                 <DashboardPage />
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/courses"
+            element={
+              <PrivateRoute>
+                <CoursesPage/>
+              </PrivateRoute>
+            }
+          />
+          <Route
+            path="/assignments"
+            element={
+              <PrivateRoute>
+                <AssignmentsPage/>
               </PrivateRoute>
             }
           />
